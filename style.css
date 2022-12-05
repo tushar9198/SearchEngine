@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Molengo&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url("stardust.png");
+}
+.logo{
+    color: #fff;
+    font-size: 4rem;
+    font-family: 'Molengo';
+    text-align: center;
+    margin: 10px 0;
+    text-shadow: 10px 10px 15px rgba(255,255,255,.1);
+}
+.search-bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin: 10px;
+}
+.search,.btn{
+    background: transparent;
+    outline: 0;
+    border: 2px solid grey;
+    margin: 0;
+    width: 80%;
+    padding: 20px 30px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Molengo';
+    transition: .3s;
+}
+.search::placeholder{
+    color: gray;
+}
+.search{
+    border-radius: 50px 0 0 50px;
+    border-right: none;
+}
+.btn{
+    background: #4fbe97;
+    border: 2px solid #4fbe97;
+    width: auto;
+    border-radius: 0 50px 50px 0;
+}
+.btn:active{
+    background: transparent;
+    color: #4fbe97;
+}
+.webpage{
+    width: 100%;
+    height: 80vh;
+    border: 2px solid #4fbe97;
+}
